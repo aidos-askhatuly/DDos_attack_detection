@@ -26,7 +26,7 @@ TBD, but it's going to be amazing!
 ...
 
 * `datasets` 
-    - contains link to copy of the dataset (stored in LFS)
+    - contains link to copy of the ataset (stored in LFS)
     - data dictionary
     - saved copy of aggregated / processed data as long as those are not too large (> 10 MB)
 
