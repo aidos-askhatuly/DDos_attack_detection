@@ -89,7 +89,7 @@ Implementing data science solutions for DDoS attack detection can have a signifi
 * Concerns: imbalanced data 90*10, IP address and hostnames are anonymized, data entry errors. Target value - Packet class: {Normal-10%, UDP-flood-9%, HTTP-flood, Smurf, SIDDOS}
 * Data is clean: no null values, no duplicates
 
-### Data Dictionary
+#### Data Dictionary
 
 | Attributes        | Description                                                | Additional Information                                                                                               | Data type |
 |-------------------|------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|-----------|
