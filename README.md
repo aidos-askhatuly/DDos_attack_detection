@@ -84,10 +84,10 @@ Implementing data science solutions for DDoS attack detection can have a signifi
     - contains a reference to the dataset stored in LFS
 
 ### Dataset
-Source: Network traffic analyzing tool Wireshark.
-Shape: 2 160 668 * 28.
-Concerns: imbalanced data 90*10, IP address and hostnames are anonymized, data entry errors. Target value - Packet class: {Normal-10%, UDP-flood-9%, HTTP-flood, Smurf, SIDDOS}
-Data is clean: no null values, no duplicates
+* Source: Network traffic analyzing tool Wireshark.
+* Shape: 2 160 668 * 28.
+* Concerns: imbalanced data 90*10, IP address and hostnames are anonymized, data entry errors. Target value - Packet class: {Normal-10%, UDP-flood-9%, HTTP-flood, Smurf, SIDDOS}
+* Data is clean: no null values, no duplicates
 
 ### Data Dictionary
 
