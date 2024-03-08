@@ -84,6 +84,9 @@ Implementing data science solutions for DDoS attack detection can have a signifi
     - contains a reference to the dataset stored in LFS
 
 ### Dataset
+The dataset is coming from the open source network analyzing software "Wireshark". The dataset contains information about network packets travelling between client, server and network devices in between such as routers and swithces. "Network packet" or "packet" is a unit of data that is transmitted over a network. It's the basic unit of communication in network protocols such as the Internet Protocol. A packet typically consists of two main parts: the header and the payload. The header contains control information such as the source and destination addresses, protocol information, packet sequence number, and error detection codes. The payload contains the actual data being transmitted.
+
+The dataset also contains information about whether the network packets have been normal or non-normal, i.e. used to perform network attack.
 * Source: Network traffic analyzing tool Wireshark.
 * Shape: 2 160 668 * 28.
 * Concerns: imbalanced data 90*10, IP address and hostnames are anonymized, data entry errors. Target value - Packet class: {Normal-10%, UDP-flood-9%, HTTP-flood, Smurf, SIDDOS}
