@@ -5,6 +5,7 @@
 
 Traditional security solutions such as firewalls, antivirus software, and cryptography systems have long been the cornerstone of cybersecurity strategies.
 However, these solutions are no longer sufficient to address the evolving threats in today's cyber landscape. The key challenges:
+
 **Static Defence.** Traditional security measures operate on a static basis, often relying on predefined rules and signatures to detect and mitigate threats. This approach fails to adapt to the dynamic nature of modern cyber threats, making it easier for attackers to evade detection.
 
 **Limited Visibility.** Traditional solutions offer limited visibility into network traffic and user behavior, making it challenging to detect and respond to sophisticated attacks that may go unnoticed for extended periods.
