@@ -96,6 +96,7 @@ Concerns: imbalanced data 90*10, IP address and hostnames are anonymized, data e
 Data is clean: no null values, no duplicates
 
 ### Data Dictionary
+
 | Attributes        | Description                                                | Additional Information                                                                                               | Data type |
 |-------------------|------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|-----------|
 | SRC_ADD           | Source IP address                                          | Due to sensitivity, IP address is encrypted                                                                          | Object    |
@@ -103,12 +104,7 @@ Data is clean: no null values, no duplicates
 | PKT_ID            | Unique identifier for each network packet                  |                                                                                                                     | Numeric   |
 | FROM_NODE         | Identifier for the source node in the network              |                                                                                                                     | Numeric   |
 | TO_NODE           | Identifier for the destination node in the network         |                                                                                                                     | Numeric   |
-| PKT_TYPE          | Packet type                                                | Common packet types:                                                                                                 | Object    |
-|                   |                                                             | 1. TCP (Transmission Control Protocol). TCP is a connection-oriented protocol used for reliable and ordered data transmission.                                                   |           |
-|                   |                                                             | 2. UDP (User Datagram Protocol). UDP is a connectionless protocol used for fast and lightweight data transmission.                                                              |           |
-|                   |                                                             | 3. ICMP (Internet Control Message Protocol). ICMP is a network-layer protocol used for error reporting and diagnostics.                                                             |           |
-|                   |                                                             | Common packet types associated with ICMP include:                                                                    |           |
-|                   |                                                             | - Echo request and reply: Used for ping tests to check network connectivity.                                           |           |
+| PKT_TYPE          | Packet type                                                | Common packet types: <br>1. TCP (Transmission Control Protocol). TCP is a connection-oriented protocol used for reliable and ordered data transmission. <br>2. UDP (User Datagram Protocol). UDP is a connectionless protocol used for fast and lightweight data transmission. <br>3. ICMP (Internet Control Message Protocol). ICMP is a network-layer protocol used for error reporting and diagnostics. <br>Common packet types associated with ICMP include: <br>- Echo request and reply: Used for ping tests to check network connectivity. | Object    |
 | PKT_SIZE          | Packet size                                                 | Size of the network packet in bytes                                                                                  | Numeric   |
 | FLAGS             | TCP flags or control bits associated with a TCP packet     | TCP uses a set of control flags to indicate various aspects of packet behavior, such as the SYN (synchronize), ACK (acknowledge), FIN (finish), RST (reset), and others | Object    |
 | FID               | Flow Identifier                                            | A unique identifier associated with a flow of network traffic. A flow is a unidirectional sequence of packets between a specific source and destination, typically identified by their IP addresses and port numbers. | Numeric   |
@@ -131,6 +127,7 @@ Data is clean: no null values, no duplicates
 | FIRST_PKT_SENT    | Time of the first packet sent                              | The timestamp indicating the time when the first packet in a network communication session was sent from the source node or device.                                                | Numeric   |
 | LAST_PKT_RECEIVED | Time of the last packet received                           | The timestamp indicating the time when the last packet in a network communication session was received at the destination node or device.                                            | Numeric   |
 | PKT_CLASS         | Packet Class                                               | Target value indicating class of the packet.                                                                         | Object    |
+
 
 
 ...
