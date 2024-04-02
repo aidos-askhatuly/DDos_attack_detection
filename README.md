@@ -28,8 +28,6 @@ Implementing data science solutions for DDoS attack detection can have a signifi
 * **Enhanced Resilience.** Data science solutions can help organizations build more resilient networks and systems capable of withstanding DDoS attacks, thereby maintaining continuous service availability and reliability for users.
 * **Cost Savings.** By reducing the duration and impact of DDoS attacks, organizations can avoid potential revenue losses associated with downtime and service disruptions, leading to cost savings in terms of operational and reputational damage.
 * **Proactive Defense.** Data science enables organizations to adopt a proactive approach to DDoS attack mitigation, allowing them to anticipate and prepare for potential attacks before they occur, thereby strengthening their overall cybersecurity posture.
-
-
 ... 
 ...
 ...
@@ -41,10 +39,7 @@ Implementing data science solutions for DDoS attack detection can have a signifi
 ...
 
 ### Project Flowchart
-
-...
-...
-...
+![Alt Text](https://github.com/aidos-askhatuly/DDos_attack_detection/blob/main/pics/Capstone%20Flowchart.drawio.png)
 
 ### Project Organization
 
@@ -54,37 +49,41 @@ Implementing data science solutions for DDoS attack detection can have a signifi
     - saved copy of aggregated / processed data as long as those are not too large (> 10 MB)
 
 * `model`
-  - TBD
+  - LogReg model was trained and its performance will serve as the baseline
+  - DecisionTree, XGBoost and Neural Network models will be trained as advanced models
 
 * `notebooks`
     - contains all final notebooks involved in the project
 
 * `reports`
-    - contains final report which summarises the project
+    - will contains final report which summarises the project
 
 * `references`
     - contains papers / tutorials used in the project
 
+* `pics`
+    - contains pictures used in the project
+
 * `src`
-    - Will contain the project source code (refactored from the notebooks)
+    - will contain the project source code (refactored from the notebooks)
 
 * `.gitignore`
-    - Part of Git, includes files and folders to be ignored by Git version control
+    - part of Git, includes files and folders to be ignored by Git version control
 
 * `capstine_env.yml`
-    - Conda environment specification
+    - conda environment specification
 
 * `Makefile`
-    - Automation script for the project
+    - automation script for the project
 
 * `README.md`
-    - Project landing page (this page)
+    - project landing page (this page)
 
 * `.gitattributes`
     - contains a reference to the dataset stored in LFS
 
 ### Dataset
-The dataset is coming from the open source network analyzing software "Wireshark". The dataset contains information about network packets travelling between client, server and network devices in between such as routers and swithces. "Network packet" or "packet" is a unit of data that is transmitted over a network. It's the basic unit of communication in network protocols such as the Internet Protocol. A packet typically consists of two main parts: the header and the payload. The header contains control information such as the source and destination addresses, protocol information, packet sequence number, and error detection codes. The payload contains the actual data being transmitted. The dataset does not contain information about header and payload due to privacy.
+The dataset has come from the open source network analyzing software "Wireshark". The dataset contains information about network packets travelling between client, server and network devices in between such as routers and swithces. "Network packet" or "packet" is a unit of data that is transmitted over a network. It's the basic unit of communication in network protocols such as the Internet Protocol. A packet typically consists of two main parts: the header and the payload. The header contains control information such as the source and destination addresses, protocol information, packet sequence number, and error detection codes. The payload contains the actual data being transmitted. The dataset does not contain information about header and payload due to privacy.
 
 The dataset also contains information about whether the network packets have been normal or non-normal, i.e. used to perform network attack.
 * Source: Network traffic analyzing tool Wireshark.
