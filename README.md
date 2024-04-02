@@ -39,7 +39,7 @@ Implementing data science solutions for DDoS attack detection can have a signifi
 ...
 
 ### Project Flowchart
-![Alt Text](https://github.com/aidos-askhatuly/DDos_attack_detection/blob/main/pics/Capstone%20Flowchart.drawio.png)
+![Alt Text](https://github.com/aidos-askhatuly/DDos_attack_detection/blob/main/pics/Capstone%20Flowchart.png)
 
 ### Project Organization
 
