@@ -28,8 +28,6 @@ Implementing data science solutions for DDoS attack detection can have a signifi
 * **Enhanced Resilience.** Data science solutions can help organizations build more resilient networks and systems capable of withstanding DDoS attacks, thereby maintaining continuous service availability and reliability for users.
 * **Cost Savings.** By reducing the duration and impact of DDoS attacks, organizations can avoid potential revenue losses associated with downtime and service disruptions, leading to cost savings in terms of operational and reputational damage.
 * **Proactive Defense.** Data science enables organizations to adopt a proactive approach to DDoS attack mitigation, allowing them to anticipate and prepare for potential attacks before they occur, thereby strengthening their overall cybersecurity posture.
-
-
 ... 
 ...
 ...
@@ -51,31 +49,35 @@ Implementing data science solutions for DDoS attack detection can have a signifi
     - saved copy of aggregated / processed data as long as those are not too large (> 10 MB)
 
 * `model`
-  - TBD
+  - LogReg model was trained and its performance will serve as the baseline
+  - DecisionTree, XGBoost and Neural Network models will be trained as advanced models
 
 * `notebooks`
     - contains all final notebooks involved in the project
 
 * `reports`
-    - contains final report which summarises the project
+    - will contains final report which summarises the project
 
 * `references`
     - contains papers / tutorials used in the project
 
+* `pics`
+    - contains pictures used in the project
+
 * `src`
-    - Will contain the project source code (refactored from the notebooks)
+    - will contain the project source code (refactored from the notebooks)
 
 * `.gitignore`
-    - Part of Git, includes files and folders to be ignored by Git version control
+    - part of Git, includes files and folders to be ignored by Git version control
 
 * `capstine_env.yml`
-    - Conda environment specification
+    - conda environment specification
 
 * `Makefile`
-    - Automation script for the project
+    - automation script for the project
 
 * `README.md`
-    - Project landing page (this page)
+    - project landing page (this page)
 
 * `.gitattributes`
     - contains a reference to the dataset stored in LFS
