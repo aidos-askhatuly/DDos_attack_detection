@@ -1,3 +1,4 @@
 datasets/final-dataset.csv filter=lfs diff=lfs merge=lfs -text
 notebooks/csv/network_preprocessed.csv filter=lfs diff=lfs merge=lfs -text
+notebooks/deeplearning/network_preprocessed.csv filter=lfs diff=lfs merge=lfs -text
 *.params filter=lfs diff=lfs merge=lfs -text
