@@ -1,8 +1,13 @@
-## Aidos's Awesome Capstone
-=========================
+<h2 align="center">
+  DDoS Attack Prediction with Machine Learning
+</h2>
+
+<p align="center">
+  <img src="https://github.com/aidos-askhatuly/DDos_attack_detection/raw/main/pics/ddosattacks.jpg" alt="Description" width="600" height="400">
+</p>
 
 ### Project Overview
-
+<hr>
 Traditional security solutions such as firewalls, antivirus software, and cryptography systems have long been the cornerstone of cybersecurity strategies.
 However, these solutions are no longer sufficient to address the evolving threats in today's cyber landscape. The key challenges:
 
