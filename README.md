@@ -33,8 +33,7 @@ We began by inspecting the data format, identifying and addressing duplicates, a
 Used various plots like histograms and box plots to visualize data distributions and relationships. We examinined pairwise correlations between numerical features. Overall, EDA facilitated understanding the distribution of features and relationships between independent variables and the target value.
 
 ### ⚙️ <a href=https://github.com/aidos-askhatuly/DDos_attack_detection/blob/main/3.%20Data%20Preprocessing.ipynb> Data Preprocessing </a>
-This included scaling, normalization, encoding categorical variables, and handling imbalanced classes by applying SMOTE oversampling technique. We reduced multi-class classification problem to binary since the total amount of all attack classes accounted for 10% out of whole dataset.
-
+This included scaling, normalization, encoding categorical variables, and handling imbalanced classes by applying SMOTE oversampling technique. We reduced the multi-class classification problem to a binary classification because the total amount of all attack classes accounted for only 10% of the entire dataset.
 ### 🔮 <a href=https://github.com/aidos-askhatuly/DDos_attack_detection/blob/main/4.%20Modelling.ipynb> Modelling </a>
 Assessed three predictive models to address the problem at hand:
 * Logistic Regression
