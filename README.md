@@ -7,7 +7,7 @@
 </p>
 
 ## 🎯 Project Overview
-Traditional security solutions such as firewalls, antivirus software, and cryptography systems are no longer sufficient to address the evolving security threats due to:
+Traditional security solutions such as firewalls, antivirus software, and cryptography systems are no longer sufficient to address the evolving security threats including distiributed denial-of-service (DDoS) attacks due to:
 
 - **Static Defence.** They operate on a static basis, often relying on predefined rules and signatures to detect and mitigate threats. This approach fails to adapt to the dynamic nature of modern cyber threats, making it easier for attackers to evade detection.
 
@@ -55,4 +55,4 @@ Potential improvements inlcude:
 
 **3. Data Quality and Pipeline Automation:** Implement data monitoring and automated pipelines for data preprocessing, feature engineering, model training, and evaluation to streamline the workflow and ensure consistency.
 
-This project showcases the practical application of machine learning techniques in predicting distributed denial-of-service (DDoS) attacks. Through comprehensive data exploration and rigorous model evaluation, we successfully built predictive models capable of identifying potential DDoS attacks.
+This project showcases the practical application of machine learning techniques in predicting distributed denial-of-service attacks. Through comprehensive data exploration and rigorous model evaluation, we successfully built predictive models capable of identifying potential DDoS attacks.
