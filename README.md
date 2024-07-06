@@ -44,7 +44,7 @@ Conducted extensive hyperparameter tuning using grid search with cross validatio
 
 To evaluate model performance, **F1 score** was selected as the primary metric. The F1 score is particularly suitable for imbalanced datasets as it considers both precision and recall, providing a balanced assessment of model performance across both classes.
 ## 🔍 Findings and Conclusions
-Among the models evaluated, **XGBoost** emerged as the top performer with an F1 score of 93.2%. This indicates that the XGBoost model effectively captured patterns in the data and made accurate predictions.
+Among the models evaluated, **XGBoost** emerged as the top performer with an F1 score of **93.2**%. This indicates that the XGBoost model effectively captured patterns in the data and made accurate predictions.
 
 Potential improvements inlcude:
 
